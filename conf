@@ -1,0 +1,10 @@
+# Scrollback limit
+set -g history-limit 10000
+
+# Set the tmux status bar color
+set -g default-terminal "screen-256color"
+set -g status-bg default
+set -g status-fg white
+
+# Vi-like keys
+set-window-option -g mode-keys vi
